@@ -1,0 +1,50 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: kafka-enterprise-lab
+
+  # PostgreSQL Configuration for Outbox and Idempotency deduplication
+  datasource:
+    url: jdbc:postgresql://localhost:5432/upskill_db
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+  # Kafka Configuration
+  kafka:
+    bootstrap-servers: localhost:9092
+    
+    # Producer Reliability Configuration
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      acks: all
+      retries: 3
+      properties:
+        enable.idempotence: true
+        max.in.flight.requests.per.connection: 5
+
+    # Consumer Configuration
+    consumer:
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      auto-offset-reset: earliest
+      properties:
+        spring.json.trusted.packages: "com.upskill.kafka.*"
+        spring.json.use.type.headers: true
+
+# Actuator Endpoints for health & metrics inspection
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
