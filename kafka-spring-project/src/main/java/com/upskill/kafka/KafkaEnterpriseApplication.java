@@ -4,7 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-// started learning the kakfa consumer and producer and offset in the deep and also keep looking at the DSA LIST
+// Started learning the kakfa consumer and producer and offset in the deep and also keep looking at the DSA LIST
+// Leaned the kafka setup and considerations we have to keep
 @SpringBootApplication
 @EnableScheduling
 public class KafkaEnterpriseApplication {
