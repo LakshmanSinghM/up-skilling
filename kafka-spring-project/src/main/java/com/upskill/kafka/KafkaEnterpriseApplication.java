@@ -8,6 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // Leaned the kafka setup and considerations we have to keep
 // learning kafka furthur for the prod level stuff and outbox pattern to have the sync in the seperate systems
 // Learning prod stuff of the kafka related
+//Getting in depth of the system designs furthur
 @SpringBootApplication
 @EnableScheduling
 public class KafkaEnterpriseApplication {
