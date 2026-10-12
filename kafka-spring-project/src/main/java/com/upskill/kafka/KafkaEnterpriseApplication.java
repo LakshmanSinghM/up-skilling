@@ -11,6 +11,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 //Getting in depth of the system designs furthur
 //New things learned today but not of technical
 //Studies about the system design and Networking
+//continued the n/w and some consistency to be kept on the content creation now
 @SpringBootApplication
 @EnableScheduling
 public class KafkaEnterpriseApplication {
