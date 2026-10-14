@@ -4,7 +4,6 @@ server:
 spring:
   application:
     name: kafka-enterprise-lab
-
   # PostgreSQL Configuration for Outbox and Idempotency deduplication
   datasource:
     url: jdbc:postgresql://localhost:5432/upskill_db
