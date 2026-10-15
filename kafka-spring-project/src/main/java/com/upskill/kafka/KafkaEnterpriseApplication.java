@@ -13,11 +13,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // Studies about the system design and Networking
 // Continued the n/w and some consistency to be kept on the content creation now
 // Networking stuff complete will study about locks in java and MT
-// Read about the kafka  internals 
+// Read about the kafka  internals
+//Kafka further explored 
 @SpringBootApplication
 @EnableScheduling
 public class KafkaEnterpriseApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(KafkaEnterpriseApplication.class, args);
     }
