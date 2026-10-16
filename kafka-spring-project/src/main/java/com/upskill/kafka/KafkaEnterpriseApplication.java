@@ -15,6 +15,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // Networking stuff complete will study about locks in java and MT
 // Read about the kafka  internals
 //Kafka further explored 
+//Explored new things and learn lot of realife
 @SpringBootApplication
 @EnableScheduling
 public class KafkaEnterpriseApplication {
