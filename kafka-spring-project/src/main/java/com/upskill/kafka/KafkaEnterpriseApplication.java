@@ -14,9 +14,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // Continued the n/w and some consistency to be kept on the content creation now
 // Networking stuff complete will study about locks in java and MT
 // Read about the kafka  internals
-//Kafka further explored 
-//Explored new things and learn lot of realife
-//Back to DSA
+// Kafka further explored 
+// Explored new things and learn lot of realife
+// Back to DSA
+// Purchasing the DJI 3 to get things done to build credit also + increase RAM first of the laptop
+
 @SpringBootApplication
 @EnableScheduling
 public class KafkaEnterpriseApplication {
