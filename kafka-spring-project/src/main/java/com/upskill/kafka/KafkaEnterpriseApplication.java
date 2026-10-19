@@ -18,6 +18,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // Explored new things and learn lot of realife
 // Back to DSA
 // Purchasing the DJI 3 to get things done to build credit also + increase RAM first of the laptop
+// Revising Java and spring boot
 
 @SpringBootApplication
 @EnableScheduling
