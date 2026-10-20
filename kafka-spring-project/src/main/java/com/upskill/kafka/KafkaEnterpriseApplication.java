@@ -19,6 +19,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // Back to DSA
 // Purchasing the DJI 3 to get things done to build credit also + increase RAM first of the laptop
 // Revising Java and spring boot
+// Revise the spring core and then Explicity MT locking using the reenetrantlock how we can reduce the waiting time for a 2nd user not to be wating and have message immediately
 
 @SpringBootApplication
 @EnableScheduling
