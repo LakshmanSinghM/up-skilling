@@ -21,6 +21,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // Revising Java and spring boot
 // Revise the spring core and then Explicity MT locking using the reenetrantlock how we can reduce the waiting time for a 2nd user not to be wating and have message immediately
 // Revised the spring boot after the spring
+// Revised the spring boot fully
 @SpringBootApplication
 @EnableScheduling
 public class KafkaEnterpriseApplication {
