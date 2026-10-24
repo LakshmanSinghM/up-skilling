@@ -23,6 +23,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // Revised the spring boot after the spring
 // Revised the spring boot fully
 // whole spring boot revised now
+// Studied the optimization techniques of DB
 @SpringBootApplication
 @EnableScheduling
 public class KafkaEnterpriseApplication {
