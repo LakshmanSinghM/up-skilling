@@ -14,7 +14,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // Continued the n/w and some consistency to be kept on the content creation now
 // Networking stuff complete will study about locks in java and MT
 // Read about the kafka  internals
-// Kafka further explored 
+// Kafka further explored
 // Explored new things and learn lot of realife
 // Back to DSA
 // Purchasing the DJI 3 to get things done to build credit also + increase RAM first of the laptop
@@ -24,6 +24,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // Revised the spring boot fully
 // whole spring boot revised now
 // Studied the optimization techniques of DB
+// Done with the DEV stuff revisions and now focus on the DSA and new concepts of the senior level need to do
 @SpringBootApplication
 @EnableScheduling
 public class KafkaEnterpriseApplication {
